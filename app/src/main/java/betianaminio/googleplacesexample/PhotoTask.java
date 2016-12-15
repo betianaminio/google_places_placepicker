@@ -52,7 +52,7 @@ class PhotoTask extends AsyncTask<String,Void,PhotoTask.AttributedPhoto> {
                 attributedPhoto = new AttributedPhoto( attributions,image);
 
             }
-            //IMPORTANT!!!!!!!!!!!!!!!!!!!!
+            //IMPORTANT!!!!!!!!!!!!!!!
             placePhotoMetadataBuffer.release();
         }
 
